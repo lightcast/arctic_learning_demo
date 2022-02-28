@@ -1,0 +1,35 @@
+{
+  "name": "arctic_learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --exit test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "app-module-path": "^2.2.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
+    "express-session": "^1.17.2",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "promise": "^8.1.0",
+    "sqlstring": "^2.3.2",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.8"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "supertest": "^6.0.0"
+  }
+}

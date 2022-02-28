@@ -1,0 +1,11 @@
+"ID";"emailAddress";"userName";"firstName";"lastName";"fullName";"password";"confirmationUID";"dateCreated";"UUID";"isAuthor";"isAdmin";"isTeacher";"isStudent"
+2;"jdshelley@gmail.com";"";"Jonathan";"Shelley";"";"$2a$10$eUqwYIImWfHKQhMJ/k2rV.c1JawLGu/e.Sumad3aPgw45/UPxt9DW";"";"2021-05-27 00:00:00";"51e229c8-9203-4412-b001-c5a78f6710d9";0;0;0;0
+3;"s.dai@imhc.org";"";"Siqi";"Dai";"";"$2a$10$KQkMFcYmLsaxp61d.jitE.7eKytp78Uzsbp3vTxixXQuzb2AEixb.";"";"2021-05-27 00:00:00";"8a4cb32f-cc27-4eee-ba33-73798a9af2a5";0;0;0;0
+4;"s.dai@imhc.org";"";"Siqi";"Dai";"";"$2a$10$4GlWbpRe0xkll10JQnxI.egVROCw88Hig4jfAQcw55c4yoT0drdou";"";"2021-05-27 00:00:00";"27c2f2ff-1777-4c2f-a136-c76daea60c7a";0;0;0;0
+5;"d.denny@imhc.org";"";"Donna";"Denny";"";"$2a$10$0IoUCgDq064iZXK2dG435OB0BfkCoQLYRVWJ8CBhVJQWMpmZPmble";"";"2021-05-27 00:00:00";"7b337041-651b-4a2c-8866-f3beeade26fd";0;0;0;0
+6;"c.saha@imhc.org";"";"Chandana";"Saha";"";"$2a$10$1.ThFrqYTRWwepOEiHLxmux/s.gbxLubU/mHa9VavI68sUvgbmpZS";"";"2021-05-27 00:00:00";"d4e52ef4-e188-49a4-bb19-1ebdde4963f7";0;0;0;0
+7;"f.nassar@imhc.org";"";"Feras";"Nassar";"";"$2a$10$RoDr1n.JhL5VaKTNQrrzGugbFmHWuSjs5Alyb2BIzCkzZpiIZqQ.6";"";"2021-05-27 00:00:00";"3339a971-7d37-4d69-889d-5bc4804a9dac";0;0;0;0
+8;"e.hillman@imhc.org";"";"Eva";"Hillman";"";"$2a$10$zwSyKx21CVMFC29GdfZ0Hu/EPwso7hQ9Y9hSuUST3ya7Uq4tRcmee";"";"2021-05-27 00:00:00";"4a2472ad-932c-4fff-ae80-fd4e3f6f214d";0;0;0;0
+9;"tsinclair@idoc.in.gov";"";"Tiffany";"Sinclair";"";"$2a$10$2FJ9Sp5c8uuIjH0.SaGDN.c/UWGSibh4PTNU1V.DZx.PdRtVMRfii";"";"2021-05-27 00:00:00";"b920a91c-8bb7-4653-b122-df7a0bfb682c";0;0;0;0
+10;"B.horton@imhc.org";"";"Beverly";"Horton";"";"$2a$10$uzjgL7jO7leKj9MCqLJflum.P/4ak.Nl/RW7c9hs6sHaLLMMatV9u";"";"2021-05-27 00:00:00";"d8d751e1-5cef-472b-88c0-2ab41ef641d3";0;0;0;0
+11;"ap@imhc.org";"";"Mary";"Emmons";"";"$2a$10$ghdpf8pSQ8FUs6.EG9Z59OlbBvsW.aE8klgIkcquk9tFee/KwhqCC";"";"2021-05-27 00:00:00";"beb0a5b6-bff2-46cf-9bb5-aeb0b1c040a1";0;0;0;0

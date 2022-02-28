@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en"
+      dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Arctic Learning</title>
+
+        <!-- Prevent the demo from appearing in search engines (REMOVE THIS) -->
+        <meta name="robots"
+              content="noindex">
+
+        <!-- Custom Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700%7CRoboto:400,500%7CRoboto:400,500&display=swap"
+              rel="stylesheet">
+
+        <!-- Perfect Scrollbar -->
+        <link type="text/css"
+              href="vendor/perfect-scrollbar.css"
+              rel="stylesheet">
+
+        <!-- Material Design Icons -->
+        <link type="text/css"
+              href="css/material-icons.css"
+              rel="stylesheet">
+
+        <!-- Font Awesome Icons -->
+        <link type="text/css"
+              href="css/fontawesome.css"
+              rel="stylesheet">
+
+        <!-- Preloader -->
+        <link type="text/css"
+              href="vendor/spinkit.css"
+              rel="stylesheet">
+
+        <!-- App CSS -->
+        <link type="text/css"
+              href="css/app.css"
+              rel="stylesheet">
+<style>
+    .hidden{
+        display: none;
+    }
+</style>
+    </head>
+
+    <body class="login">
+
+        <div class="d-flex align-items-center"
+             style="min-height: 100vh">
+            <div class="col-sm-8 col-md-6 col-lg-4 mx-auto"
+                 style="min-width: 300px;">
+                <div class="text-center mt-5 mb-1">
+                    <div class="avatar avatar-lg">
+                        <img src="/images/logo/primary.svg"
+                             class="avatar-img rounded-circle"
+                             alt="LearnPlus" />
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mb-5 navbar-light">
+                    <a href="/login"
+                       class="navbar-brand m-0">Arctic Learning</a>
+                </div>
+
+                <div id="error" class="alert alert-danger hidden"></div>
+
+                <div class="card navbar-shadow">
+                    <div class="card-header text-center">
+                        <h4 class="card-title">Sign Up</h4>
+                        <p class="card-subtitle">Create a new account</p>
+                    </div>
+                    <div class="card-body">
+                        <!-- <form action="student-dashboard.html"
+                              novalidate
+                              method="get"> -->
+                            <div class="form-group">
+                                <label class="form-label"
+                                       for="name">First Name:</label>
+                                <div class="input-group input-group-merge">
+                                    <input id="firstName"
+                                           type="text"
+                                           required=""
+                                           class="form-control form-control-prepended"
+                                           placeholder="Your first name">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <span class="far fa-user"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label"
+                                       for="name">Last Name:</label>
+                                <div class="input-group input-group-merge">
+                                    <input id="lastName"
+                                           type="text"
+                                           required=""
+                                           class="form-control form-control-prepended"
+                                           placeholder="Your last name">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <span class="far fa-user"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="form-label"
+                                       for="email">Email address:</label>
+                                <div class="input-group input-group-merge">
+                                    <input id="email"
+                                           type="email"
+                                           required=""
+                                           class="form-control form-control-prepended"
+                                           placeholder="Your email address">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <span class="far fa-envelope"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label"
+                                       for="password">Password:</label>
+                                <div class="input-group input-group-merge">
+                                    <input id="password"
+                                           type="password"
+                                           required=""
+                                           class="form-control form-control-prepended"
+                                           placeholder="Choose a password">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <span class="fas fa-key"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label"
+                                       for="password2">Password:</label>
+                                <div class="input-group input-group-merge">
+                                    <input id="confirmPassword"
+                                           type="password"
+                                           required=""
+                                           class="form-control form-control-prepended"
+                                           placeholder="Confirm password">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <span class="fas fa-key"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label"
+                                     for="companyCode">Company Code:</label>
+                              <div class="input-group input-group-merge">
+                                  <input id="companyCode"
+                                         type="text"
+                                         required=""
+                                         class="form-control form-control-prepended"
+                                         placeholder="Input your company code provided by your admin">
+                                  <div class="input-group-prepend">
+                                      <div class="input-group-text">
+                                          <span class="fas fa-building"></span>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                            <button id="btnSubmit"
+                                    class="btn btn-primary btn-block mb-3">Sign Up</button>
+                            <!-- <div class="form-group text-center mb-0">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="terms"
+                                           type="checkbox"
+                                           class="custom-control-input"
+                                           checked
+                                           required="">
+                                    <label for="terms"
+                                           class="custom-control-label text-black-70">I agree to the <a href="#"
+                                           class="text-black-70"
+                                           style="text-decoration: underline;">Terms of Use</a></label>
+                                </div>
+                            </div> -->
+                        <!-- </form> -->
+                    </div>
+                    <div class="card-footer text-center text-black-50">Already signed up? <a href="/login">Login</a></div>
+                </div>
+                <div class="text-center text-black-50">
+                    Powered by inlenTek
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery -->
+        <script src="/vendor/jquery.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="/vendor/popper.min.js"></script>
+        <script src="/vendor/bootstrap.min.js"></script>
+
+        <!-- Perfect Scrollbar -->
+        <script src="/vendor/perfect-scrollbar.min.js"></script>
+
+        <!-- MDK -->
+        <script src="/vendor/dom-factory.js"></script>
+        <script src="/vendor/material-design-kit.js"></script>
+
+        <!-- App JS -->
+        <script src="/js/app.js"></script>
+
+        <!-- Highlight.js -->
+        <script src="/js/hljs.js"></script>
+
+        <!-- App Settings (safe to remove) -->
+        <script src="/js/app-settings.js"></script>
+        <script src="/js/student-sign-up.js"></script>
+    </body>
+
+</html>

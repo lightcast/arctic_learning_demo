@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en"
+      dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Arctic Learning Student - Dashboard</title>
+
+        <!-- Prevent the demo from appearing in search engines (REMOVE THIS) -->
+        <meta name="robots"
+              content="noindex">
+
+        <!-- Custom Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700%7CRoboto:400,500%7CRoboto:400,500&display=swap"
+              rel="stylesheet">
+
+        <!-- Perfect Scrollbar -->
+        <link type="text/css"
+              href="vendor/perfect-scrollbar.css"
+              rel="stylesheet">
+
+        <!-- Material Design Icons -->
+        <link type="text/css"
+              href="css/material-icons.css"
+              rel="stylesheet">
+
+        <!-- Font Awesome Icons -->
+        <link type="text/css"
+              href="css/fontawesome.css"
+              rel="stylesheet">
+
+        <!-- Preloader -->
+        <link type="text/css"
+              href="vendor/spinkit.css"
+              rel="stylesheet">
+
+        <!-- App CSS -->
+        <link type="text/css"
+              href="css/app.css"
+              rel="stylesheet">
+
+    </head>
+
+    <body class=" layout-fluid">
+
+        <div class="preloader">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+        </div>
+
+        <!-- Header Layout -->
+        <div class="mdk-header-layout js-mdk-header-layout">
+
+            <!-- Header -->
+
+            <div id="header"
+                 data-fixed
+                 class="mdk-header js-mdk-header mb-0">
+                <div class="mdk-header__content">
+
+                    <!-- Navbar -->
+                    <nav id="default-navbar"
+                         class="navbar navbar-expand navbar-dark bg-primary m-0">
+                        <div class="container-fluid">
+                            <!-- Toggle sidebar -->
+                            <button class="navbar-toggler d-block"
+                                    data-toggle="sidebar"
+                                    type="button">
+                                <span class="material-icons">menu</span>
+                            </button>
+
+                            <!-- Brand -->
+                            <a href="/student-dashboard"
+                               class="navbar-brand">
+                                <!-- <img src="images/logo/primary.svg"
+                                     class="mr-2"
+                                     /> -->
+
+                                <span class="d-none d-xs-md-block">Arctic Learning</span>
+                            </a>
+
+                            <div class="flex"></div>
+
+                            <!-- Menu -->
+                            <!-- <ul class="nav navbar-nav flex-nowrap d-none d-lg-flex">
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                       href="/student-help-center">Get Help</a>
+                                </li>
+                            </ul> -->
+
+                            <!-- Menu -->
+                            <ul class="nav navbar-nav flex-nowrap">
+
+                                <!-- Notifications dropdown -->
+                                <li class="nav-item dropdown dropdown-notifications dropdown-menu-sm-full">
+                                    <!-- <button class="nav-link btn-flush dropdown-toggle"
+                                            type="button"
+                                            data-toggle="dropdown"
+                                            data-dropdown-disable-document-scroll
+                                            data-caret="false">
+                                        <i class="material-icons">notifications</i>
+                                        <span class="badge badge-notifications badge-danger">2</span>
+                                    </button> -->
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <div data-perfect-scrollbar
+                                             class="position-relative">
+                                            <div class="dropdown-header"><strong>System notifications</strong></div>
+                                            <div class="list-group list-group-flush mb-0">
+
+                                                <a href="student-messages.html"
+                                                   class="list-group-item list-group-item-action border-left-3 border-left-danger">
+                                                    <span class="d-flex align-items-center mb-1">
+                                                        <small class="text-muted">3 minutes ago</small>
+
+                                                    </span>
+                                                    <span class="d-flex">
+                                                        <span class="flex d-flex flex-column">
+
+                                                            <span class="text-black-70">Please continue your Security Awareness program before end of week.</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+
+                                                <a href="/student-messages"
+                                                   class="list-group-item list-group-item-action">
+                                                    <span class="d-flex align-items-center mb-1">
+                                                        <small class="text-muted">5 hours ago</small>
+
+                                                    </span>
+                                                    <span class="d-flex">
+                                                        <span class="flex d-flex flex-column">
+                                                            <span class="text-black-70">There is a new course ready for you to study.</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- // END Notifications dropdown -->
+                                <!-- User dropdown -->
+                                <li class="nav-item dropdown ml-1 ml-md-3">
+                                    <a class="nav-link dropdown-toggle"
+                                       data-toggle="dropdown"
+                                       href="#"
+                                       role="button">
+                                             <i class="fas fa-user"></i>
+
+
+
+                                           </a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <!-- <a class="dropdown-item"
+                                           href="/student-account-edit">
+                                            <i class="material-icons">edit</i> Edit Account
+                                        </a> 
+                                        <a class="dropdown-item"
+                                           href="/logout">
+                                            <i class="material-icons">lock</i> Logout
+                                        </a>
+                                    </div>
+                                </li>
+                                // END User dropdown -->
+
+                            </ul>
+                            <!-- // END Menu -->
+                        </div>
+                    </nav>
+                    <!-- // END Navbar -->
+
+                </div>
+            </div>
+
+            <!-- // END Header -->
+
+            <!-- Header Layout Content -->
+            <div class="mdk-header-layout__content">
+
+                <div data-push
+                     data-responsive-width="992px"
+                     class="mdk-drawer-layout js-mdk-drawer-layout">
+                    <div class="mdk-drawer-layout__content page ">
+
+                        <div class="container-fluid page__container">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/student-dashboard">Home</a></li>
+                                <li class="breadcrumb-item active">Dashboard</li>
+                            </ol>
+                            <h1 class="h2">Dashboard</h1>
+
+                           
+                            <div class="row">
+                                <div class="col-lg-7">
+
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <div class="media align-items-center">
+                                                <div class="media-body">
+                                                    <h4 class="card-title">My Courses</h4>
+                                                    <p class="card-subtitle">Your recent courses</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul id="my-courses-card" class="list-group list-group-fit mb-0"
+                                            style="z-index: initial;list-style:none;padding:10px;color:blue;">
+
+
+                                        </ul>
+                                        <div id='no-courses' class="text-center" style="padding:5px"></div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <div class="media align-items-center">
+                                                <div class="media-body">
+                                                    <h4 class="card-title">Quizzes</h4>
+                                                    <p class="card-subtitle">Your Performance</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <ul  id="quizzes-card" class="list-group list-group-fit mb-0">
+                                            
+                                        </ul>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="card card-2by1">
+                                        <div class="card-header">
+                                            <h4 class="card-title">Rewards</h4>
+                                            <p class="card-subtitle">Your latest achievements</p>
+                                        </div>
+                                        <div id="rewards-card" class="card-body text-center">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <div class="media align-items-center">
+                                                <div class="media-body">
+                                                    <h4 class="card-title">Activity</h4>
+                                                    <p class="card-subtitle">Latest actions you performed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <ul id="activity-card" class="list-group list-group-fit">
+                                        </ul>
+                                        <div id='no-activity' class="text-center" style="padding:5px"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="mdk-drawer js-mdk-drawer"
+                         id="default-drawer">
+                        <div class="mdk-drawer__content ">
+                            <div class="sidebar sidebar-left sidebar-dark bg-dark o-hidden"
+                                 data-perfect-scrollbar>
+                                <div class="sidebar-p-y">
+                                    <ul class="sidebar-menu sm-active-button-bg">
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button"
+                                               href="/student-dashboard">
+                                                <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">account_box</i> Dashboard
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button"
+                                               href="/student-browse-courses">
+                                                <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">search</i> Browse Courses
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button"
+                                               href="/student-take-quiz">
+                                                <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i> Take a Quiz
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button"
+                                               href="/student-quiz-results">
+                                                <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">poll</i> Quiz Results
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script id="quiz-template" type="text/template">
+            <li class="list-group-item">
+                <div class="media align-items-center">
+                    <div class="media-body">
+                        <a class="text-body"
+                           href="{{quizURL}}"><strong>{{quiz}}</strong></a><br>
+                        <div class="d-flex align-items-center">
+                            <small class="text-black-50 text-uppercase mr-2">Course</small>
+                            <a href="{{courseURL}}">{{course}}</a>
+                        </div>
+                    </div>
+                    <div class="media-right text-center d-flex align-items-center">
+                        <span class="text-black-50 mr-3">{{result}}</span>
+                        <h4 class="mb-0" style="color:{{total_style}}">{{total}}</h4>
+                    </div>
+                </div>
+            </li>
+        </script>
+
+        <script id="activity-template" type="text/template">
+            <li class="list-group-item forum-thread">
+                <div class="media align-items-center">
+                    <div class="media-left">
+                        <div class="forum-icon-wrapper">
+                            <a href="student-forum-thread.html"
+                                class="forum-thread-icon">
+                                <i class="material-icons">description</i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <div class="d-flex align-items-center">
+                            <a href="student-profile.html"
+                                class="text-body">
+                                {{data}}
+                            <small class="ml-auto text-muted">{{time}}</small>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </script>
+        <!-- jQuery -->
+        <script src="vendor/jquery.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="vendor/popper.min.js"></script>
+        <script src="vendor/bootstrap.min.js"></script>
+
+        <!-- Perfect Scrollbar -->
+        <script src="vendor/perfect-scrollbar.min.js"></script>
+
+        <!-- MDK -->
+        <script src="vendor/dom-factory.js"></script>
+        <script src="vendor/material-design-kit.js"></script>
+
+        <!-- App JS -->
+        <script src="js/app.js"></script>
+
+        <!-- Highlight.js -->
+        <script src="js/hljs.js"></script>
+
+        <!-- App Settings (safe to remove) -->
+        <!-- <script src="js/app-settings.js"></script> -->
+
+        <!-- Global Settings -->
+        <script src="js/settings.js"></script>
+
+        <!-- Moment.js -->
+        <script src="vendor/moment.min.js"></script>
+        <script src="vendor/moment-range.js"></script>
+
+        <!-- Chart.js -->
+        <!-- <script src="vendor/Chart.min.js"></script>
+        <script src="js/chartjs.js"></script> -->
+
+        <!-- Student Dashboard Page JS -->
+        <!-- <script src="js/chartjs-rounded-bar.js"></script> -->
+        <!-- <script src="js/page.student-dashboard.js"></script> -->
+        <script src="js/student-dashbaord.js"></script>
+
+    </body>
+
+</html>

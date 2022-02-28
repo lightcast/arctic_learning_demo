@@ -1,0 +1,2 @@
+[{"ID":1, "quizUUID":"bc093428-bcc9-11eb-96ba-9e2f13ced4ba", "userUUID":"dda7744a-cb09-4a00-8739-3df9ff6dc89c", "answers":"{\"completed\": \"6\", \"results\": \"Fair\", \"answers\": [\"Yes\", \"No\", \"Yes\", \"No\", \"Yes\"]}", "dateCreated":"2021-05-24 10:43:00"},
+ {"ID":2, "quizUUID":"bef681be-bcc9-11eb-96ba-9e2f13ced4ba", "userUUID":"dda7744a-cb09-4a00-8739-3df9ff6dc89c", "answers":"{\"completed\": \"8\", \"results\": \"Good\", \"answers\": [\"No\", \"No\", \"No\", \"No\", \"Yes\"]}", "dateCreated":"2021-05-24 12:43:00"}]
